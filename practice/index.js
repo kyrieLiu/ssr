@@ -1,7 +1,9 @@
 import Vue from 'vue'
 
-const app = new Vue({
-  template: '<div>this is content</div>'
+import App from './app.vue'
+
+const vue = new Vue({
+  render: (h) => h(App)
 })
 
-app.$mount('#root')
+vue.$mount('#root')

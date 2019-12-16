@@ -4,7 +4,7 @@
    Description:
  -->
 <template>
-    <div>
+  <div id="app">
         <p>我是内容</p>
     </div>
 </template>
