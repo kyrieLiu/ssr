@@ -14,8 +14,6 @@ import Todo from './views/todo/todo.vue'
 
 console.log(Header.__docs)
 
-
-
 export default {
   components: {
     Header,
