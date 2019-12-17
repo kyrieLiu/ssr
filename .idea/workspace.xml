@@ -2,41 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45ec829-f5b0-4f75-b19d-68391b5dfd3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/webpack.config.server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/config/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/config/routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/create-app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/server-entry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/getters/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/mutations/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/state/state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/views/login/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routers/dev-ssr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routers/server-render.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routers/ssr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/server.template.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/loading/loading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/notification/func-notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/notification/function.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/notification/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/notification/notification.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/tabs/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/tabs/tab-container.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/tabs/tab.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/tabs/tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.config.base.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.config.base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.config.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.config.client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/images/bg.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/images/bg.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/images/done.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/images/done.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/images/round.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/images/round.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/styles/footer.styl" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/styles/footer.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/styles/global.styl" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/styles/global.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/styles/test-stylus.styl" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/styles/test-stylus.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/assets/styles/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/assets/styles/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/layout/footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/layout/footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/layout/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/layout/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/server-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/server-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/login/login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/views/todo/item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/todo/item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/views/todo/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/todo/tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/todo/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/todo/helper.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/views/todo/todo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/todo/todo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routers/dev-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routers/dev-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routers/server-render.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routers/server-render.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +92,9 @@
       <workItem from="1576459269532" duration="578000" />
       <workItem from="1576459877802" duration="6719000" />
       <workItem from="1576474131789" duration="19703000" />
-      <workItem from="1576544082887" duration="2184000" />
+      <workItem from="1576544082887" duration="6546000" />
+      <workItem from="1576557634445" duration="146000" />
+      <workItem from="1576560624430" duration="9450000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1576460261895</created>
@@ -140,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576480963986</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="xxx">
+      <created>1576549452208</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576549452208</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

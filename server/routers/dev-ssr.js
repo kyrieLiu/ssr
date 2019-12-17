@@ -33,7 +33,7 @@ const handleSSR = async (ctx) => {
     ctx.body = '你等一会,别着急...'
   }
   const clientManifestResp = await axios.get(
-    'http://127.0.0.1:8080/public/vue-ssr-client-manifest.json'
+    'http://127.0.0.1:8000/public/vue-ssr-client-manifest.json'
   )
   const clientManifest = clientManifestResp.data
 
