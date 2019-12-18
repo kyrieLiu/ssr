@@ -3,13 +3,23 @@ const createVueLoaderOptions = require('./vue-loader.config')
 
 const isDev = process.env.NODE_ENV === 'development'
 
+function resolve (dir) {
+  return path.join(__dirname, '..', dir)
+}
+
 const config = {
   target: 'web',
-  entry: path.join(__dirname, '../client/index.js'),
+  entry: path.join(__dirname, '../client/client-entry.js'),
   output: {
     filename: 'bundle.[hash:8].js',
-    path: path.join(__dirname, '../dist'),
+    path: path.join(__dirname, '../public'),
     publicPath: '/public/'
+  },
+  resolve: {
+    extensions: ['.js', '.vue', '.json'],
+    alias: {
+      '@': resolve('client')
+    }
   },
   module: {
     rules: [
@@ -30,8 +40,8 @@ const config = {
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
+        loader: 'babel-loader'
       },
       {
         test: /\.(gif|jpg|jpeg|png|svg)$/,
@@ -40,7 +50,7 @@ const config = {
             loader: 'url-loader',
             options: {
               limit: 1024,
-              name: 'resources/[path][name].[hash:8].[ext]'
+              name: 'imgs/[path][name]-[hash:8].[ext]'
             }
           }
         ]

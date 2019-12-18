@@ -1,96 +1,69 @@
 <template>
   <div id="app">
     <div id="cover"></div>
-    <div id="loading">
-      <loading></loading>
-    </div>
-    <Header></Header>
-    <!-- <p>{{fullName}} {{counter}}</p> -->
-    <!-- <p>{{textC}} {{textPlus}}</p> -->
-    <!-- <router-link to="/app/123">app123</router-link>
-    <router-link to="/app/456">app456</router-link>
-    <router-link to="/login">login</router-link> -->
-    <!-- <todo></todo> -->
-    <!-- <tabs>
-      <tab lable="text">
-        <span slot="label"></span>
-        <p>This is tab content</p>
-      </tab>
-    </tabs>
-    <ul>
-      <li>label</li>
-      <li>label2</li>
-    </ul>
-    <div class="tab-container">
-      <p>This is tab content</p>
-    </div> -->
-    <transition name="fade" mode="out-in">
-      <router-view />
+    <router-link to="/app">app</router-link>
+    <router-link to="/login">login</router-link>
+    <Header>
+      {{ fullName + ' ' + count}}
+    </Header>
+<!--    <todo></todo>-->
+    <transition name="fade">
+      <router-view/>
     </transition>
-    <!-- <button @click="notify">click me1</button> -->
-    <!-- <notification content="test notify" /> -->
     <Footer></Footer>
+<!--    <router-view name="a"/>-->
   </div>
 </template>
 
 <script>
-  import Header from './layout/header.vue'
-  import Footer from './layout/footer.jsx'
-  import Loading from './components/loading/loading.vue'
-  // import Todo from './views/todo/todo.vue'
+import Header from './layout/header.vue'
+import Footer from './layout/footer.jsx'
+import Todo from './views/todo/todo.vue'
 
-  // console.log(Header.__docs)
+import { mapGetters, mapState, mapMutations, mapActions } from 'vuex'
 
-  export default {
-    metaInfo: {
-      title: 'Jokcy\'s Todo App'
-    },
-    components: {
-      Header,
-      Footer,
-      Loading
-      // Todo
-    },
-    mounted () {
-      // console.log(this.$store)
-      // let i = 1
-      // this.updateCountAsync({
-      //   num: 5,
-      //   time: 2000
-      // })
-      // this.$store.state.count = 3
-      // setInterval(() => {
-      //   this.updateCount({
-      //     num: i++,
-      //     num2: 2
-      //   })
-      // }, 1000)
-    },
-    methods: {
-      // ...mapActions(['updateCountAsync']),
-      // ...mapMutations(['updateCount']),
-      notify () {
-        this.$notify({
-          content: 'test $notify',
-          btn: 'close'
-        })
+export default {
+  metaInfo: {
+    title: 'Todo App'
+  },
+  components: {
+    Header,
+    Footer,
+    Todo
+  },
+  mounted () {
+    // this.updateCount(5)
+    // this.updateCount1(5)
+    // this.updateCount(10)
+    // this.updateCount1(0)
+    // this.updateCountSync({ num: 10, time: 3000 })
+    // console.log(this.$store.state.count + ' ' + this.$store.state.count1)
+    // this.updateCount1Sync({ num: 0, time: 3000 })
+  },
+  computed: {
+    // count () {
+    //   return this.$store.state.count
+    // },
+    // fullName () {
+    //   return this.$store.getters.fullName
+    // },
+    // ...需要安装"babel-preset-stage-1"
+    // 第一种调用形式，用数组
+    // ...mapState(['count']),
+    // 第二种调用形式，用Object
+    ...mapState({
+      // 注意这里count， 其实是可以另外命名的
+      count: state => {
+        return state.count
       }
-    },
-    computed: {
-      // ...mapState({
-      //   counter: (state) => state.count
-      // }),
-      // count () {
-      //   return this.$store.state.count
-      // },
-      // ...mapGetters({
-      //   'fullName': 'fullName'
-      // })
-      // fullName () {
-      //   return this.$store.getters.fullName
-      // }
-    }
+    }),
+    ...mapGetters(['fullName'])
+  },
+  methods: {
+    ...mapMutations(['updateCount', 'updateCount1']),
+    ...mapActions(['updateCountSync', 'updateCount1Sync'])
   }
+}
 </script>
 
 <style lang="stylus" scoped>
@@ -111,18 +84,4 @@
     opacity .9
     z-index -1
   }
-  #loading{
-    position fixed
-    top 0
-    right 0
-    bottom 0
-    left 0
-    background-color rgba(255,255,255,.3)
-    z-index 99
-    display flex
-    align-items center
-    justify-content center
-  }
 </style>
-
-
