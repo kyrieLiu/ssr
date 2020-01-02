@@ -33,6 +33,7 @@ const devServer = {
   historyApiFallback: {
     index: '/public/index.html'
   },
+  headers: { 'Access-Control-Allow-Origin': '*' },
   // 每次代码更新进行热更新，不更新不变的代码
   hot: true
 }
