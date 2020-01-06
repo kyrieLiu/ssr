@@ -34,6 +34,10 @@ const devServer = {
     index: '/public/index.html'
   },
   headers: { 'Access-Control-Allow-Origin': '*' },
+  proxy: {
+    '/api': 'http://127.0.0.1:3333',
+    '/user': 'http://127.0.0.1:3333'
+  },
   // 每次代码更新进行热更新，不更新不变的代码
   hot: true
 }
@@ -121,6 +125,11 @@ if (isDev) {
       })
     ])
   })
+}
+config.resolve = {
+  alias: {
+    'model': path.join(__dirname, '../client/model/client-model.js')
+  }
 }
 
 module.exports = config

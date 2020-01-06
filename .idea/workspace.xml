@@ -2,33 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c45ec829-f5b0-4f75-b19d-68391b5dfd3f" name="Default Changelist" comment="xxx">
-      <change afterPath="$PROJECT_DIR$/client/components/notification/func-notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/notification/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/notification/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/notification/notification.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/tabs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/tabs/tab-container.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/tabs/tab.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/components/tabs/tabs.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/getters/getters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/mutations/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/state/state.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/store/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/views/todo/helper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/bus/bus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/components/loading/loading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/model/client-model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/model/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pm2.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routers/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routers/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/webpack.config.client.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.config.client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/app.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/create-app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/create-app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/getters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/modules/a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/mutations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/store/state.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/views/todo/item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/todo/item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/views/todo/tabs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/client-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/server-entry.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/server-entry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/views/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/login/login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/views/todo/todo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/client/views/todo/todo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -53,7 +44,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/client/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,9 +63,9 @@
       <recent name="$PROJECT_DIR$/client/components" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/components" />
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/client/views" />
-      <recent name="$PROJECT_DIR$/client/components" />
       <recent name="$PROJECT_DIR$/server/routers" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -109,6 +100,17 @@
       <workItem from="1576557634445" duration="146000" />
       <workItem from="1576560624430" duration="12578000" />
       <workItem from="1576630705371" duration="20386000" />
+      <workItem from="1578013041692" duration="3310000" />
+      <workItem from="1578022962128" duration="379000" />
+      <workItem from="1578034637831" duration="44000" />
+      <workItem from="1578034780068" duration="3267000" />
+      <workItem from="1578209583961" duration="1339000" />
+      <workItem from="1578216935834" duration="451000" />
+      <workItem from="1578219356635" duration="429000" />
+      <workItem from="1578221165544" duration="5000" />
+      <workItem from="1578230546536" duration="976000" />
+      <workItem from="1578232979423" duration="269000" />
+      <workItem from="1578272552185" duration="1366000" />
     </task>
     <task id="LOCAL-00001" summary="xxx">
       <created>1576460261895</created>
@@ -159,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576580562754</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="xxx">
+      <created>1577944325334</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1577944325334</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

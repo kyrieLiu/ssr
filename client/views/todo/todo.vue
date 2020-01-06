@@ -67,6 +67,13 @@ export default {
     // console.log('this.id = ' + this.id)
     // console.log('this.$route.params.id = ' + this.$route.params.id)
   },
+  asyncData () {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(123)
+      }, 1000)
+    })
+  },
   computed: {
     filteredTodos () {
       if (this.filter === 'all') {

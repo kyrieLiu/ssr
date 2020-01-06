@@ -19,6 +19,7 @@
 import Header from './layout/header.vue'
 import Footer from './layout/footer.jsx'
 import Todo from './views/todo/todo.vue'
+import Loading from './components/loading/loading.vue'
 
 import { mapGetters, mapState, mapMutations, mapActions } from 'vuex'
 
@@ -29,7 +30,8 @@ export default {
   components: {
     Header,
     Footer,
-    Todo
+    Todo,
+    Loading
   },
   mounted () {
     // this.updateCount(5)
